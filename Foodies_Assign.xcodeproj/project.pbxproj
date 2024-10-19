@@ -14,6 +14,17 @@
 		E442256F2CC35DFD00F8105E /* Foodies_AssignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442256E2CC35DFD00F8105E /* Foodies_AssignTests.swift */; };
 		E44225792CC35DFD00F8105E /* Foodies_AssignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225782CC35DFD00F8105E /* Foodies_AssignUITests.swift */; };
 		E442257B2CC35DFD00F8105E /* Foodies_AssignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442257A2CC35DFD00F8105E /* Foodies_AssignUITestsLaunchTests.swift */; };
+		E442258E2CC35E8D00F8105E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E442258D2CC35E8D00F8105E /* Kingfisher */; };
+		E44225902CC35F0500F8105E /* recipeJson.json in Resources */ = {isa = PBXBuildFile; fileRef = E442258F2CC35F0500F8105E /* recipeJson.json */; };
+		E44225922CC35F7B00F8105E /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225912CC35F7B00F8105E /* RecipeModel.swift */; };
+		E44225942CC35FD000F8105E /* StaticJSONMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225932CC35FD000F8105E /* StaticJSONMapping.swift */; };
+		E44225962CC3600C00F8105E /* RecipePreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225952CC3600C00F8105E /* RecipePreviewData.swift */; };
+		E44225982CC3605500F8105E /* IconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225972CC3605500F8105E /* IconImage.swift */; };
+		E442259A2CC3607500F8105E /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225992CC3607500F8105E /* RecipeViewModel.swift */; };
+		E442259C2CC36A5500F8105E /* RecipeGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442259B2CC36A5500F8105E /* RecipeGridCell.swift */; };
+		E442259E2CC36AA200F8105E /* RecipeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442259D2CC36AA200F8105E /* RecipeDetailCell.swift */; };
+		E44225A02CC36AF000F8105E /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442259F2CC36AF000F8105E /* RecipeCard.swift */; };
+		E44225A22CC36B2C00F8105E /* RecipeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225A12CC36B2C00F8105E /* RecipeMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,16 @@
 		E44225742CC35DFD00F8105E /* Foodies_AssignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Foodies_AssignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44225782CC35DFD00F8105E /* Foodies_AssignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodies_AssignUITests.swift; sourceTree = "<group>"; };
 		E442257A2CC35DFD00F8105E /* Foodies_AssignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodies_AssignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E442258F2CC35F0500F8105E /* recipeJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeJson.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		E44225912CC35F7B00F8105E /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		E44225932CC35FD000F8105E /* StaticJSONMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJSONMapping.swift; sourceTree = "<group>"; };
+		E44225952CC3600C00F8105E /* RecipePreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreviewData.swift; sourceTree = "<group>"; };
+		E44225972CC3605500F8105E /* IconImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImage.swift; sourceTree = "<group>"; };
+		E44225992CC3607500F8105E /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		E442259B2CC36A5500F8105E /* RecipeGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeGridCell.swift; sourceTree = "<group>"; };
+		E442259D2CC36AA200F8105E /* RecipeDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailCell.swift; sourceTree = "<group>"; };
+		E442259F2CC36AF000F8105E /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		E44225A12CC36B2C00F8105E /* RecipeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E442258E2CC35E8D00F8105E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +118,11 @@
 			children = (
 				E442255D2CC35DFC00F8105E /* Foodies_AssignApp.swift */,
 				E442255F2CC35DFC00F8105E /* ContentView.swift */,
+				E442258B2CC35E3700F8105E /* utils */,
+				E442258A2CC35E2D00F8105E /* view */,
+				E44225892CC35E2300F8105E /* viewmodel */,
+				E44225882CC35E1D00F8105E /* model */,
+				E44225872CC35E1100F8105E /* json */,
 				E44225612CC35DFD00F8105E /* Assets.xcassets */,
 				E44225632CC35DFD00F8105E /* Preview Content */,
 			);
@@ -127,6 +154,51 @@
 			path = Foodies_AssignUITests;
 			sourceTree = "<group>";
 		};
+		E44225872CC35E1100F8105E /* json */ = {
+			isa = PBXGroup;
+			children = (
+				E442258F2CC35F0500F8105E /* recipeJson.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		E44225882CC35E1D00F8105E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E44225912CC35F7B00F8105E /* RecipeModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E44225892CC35E2300F8105E /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				E44225992CC3607500F8105E /* RecipeViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		E442258A2CC35E2D00F8105E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E442259B2CC36A5500F8105E /* RecipeGridCell.swift */,
+				E442259D2CC36AA200F8105E /* RecipeDetailCell.swift */,
+				E442259F2CC36AF000F8105E /* RecipeCard.swift */,
+				E44225A12CC36B2C00F8105E /* RecipeMainView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E442258B2CC35E3700F8105E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E44225932CC35FD000F8105E /* StaticJSONMapping.swift */,
+				E44225952CC3600C00F8105E /* RecipePreviewData.swift */,
+				E44225972CC3605500F8105E /* IconImage.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +215,9 @@
 			dependencies = (
 			);
 			name = Foodies_Assign;
+			packageProductDependencies = (
+				E442258D2CC35E8D00F8105E /* Kingfisher */,
+			);
 			productName = Foodies_Assign;
 			productReference = E442255A2CC35DFC00F8105E /* Foodies_Assign.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +290,9 @@
 				Base,
 			);
 			mainGroup = E44225512CC35DFC00F8105E;
+			packageReferences = (
+				E442258C2CC35E8D00F8105E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E442255B2CC35DFC00F8105E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +311,7 @@
 			files = (
 				E44225652CC35DFD00F8105E /* Preview Assets.xcassets in Resources */,
 				E44225622CC35DFD00F8105E /* Assets.xcassets in Resources */,
+				E44225902CC35F0500F8105E /* recipeJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +336,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44225982CC3605500F8105E /* IconImage.swift in Sources */,
+				E44225A02CC36AF000F8105E /* RecipeCard.swift in Sources */,
+				E442259E2CC36AA200F8105E /* RecipeDetailCell.swift in Sources */,
+				E44225942CC35FD000F8105E /* StaticJSONMapping.swift in Sources */,
 				E44225602CC35DFC00F8105E /* ContentView.swift in Sources */,
+				E442259A2CC3607500F8105E /* RecipeViewModel.swift in Sources */,
+				E44225A22CC36B2C00F8105E /* RecipeMainView.swift in Sources */,
+				E44225962CC3600C00F8105E /* RecipePreviewData.swift in Sources */,
+				E442259C2CC36A5500F8105E /* RecipeGridCell.swift in Sources */,
 				E442255E2CC35DFC00F8105E /* Foodies_AssignApp.swift in Sources */,
+				E44225922CC35F7B00F8105E /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +518,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +526,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foodies-Assign";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +552,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +560,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foodies-Assign";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,10 +579,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P245NB73JW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foodies-AssignTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,10 +603,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P245NB73JW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foodies-AssignTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,9 +626,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P245NB73JW;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foodies-AssignUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -538,9 +649,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P245NB73JW;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foodies-AssignUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E442258C2CC35E8D00F8105E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E442258D2CC35E8D00F8105E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E442258C2CC35E8D00F8105E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E44225522CC35DFC00F8105E /* Project object */;
 }

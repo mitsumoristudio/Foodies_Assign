@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewmodel = RecipeViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            RecipesMainView(recipeVM: viewmodel)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Preview: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
