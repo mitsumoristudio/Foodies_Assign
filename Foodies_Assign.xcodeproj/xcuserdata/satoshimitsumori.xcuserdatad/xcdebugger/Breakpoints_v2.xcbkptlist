@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3AB70B46-8FC8-43BA-8E82-2F4FAAC528BA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Foodies_AssignTests/Foodies_AssignTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D - bbecf97779b5bde4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies_AssignTests.Foodies_AssignTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Foodies_AssignTests.Foodies_AssignTests"
+                  moduleName = "Foodies_AssignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satoshimitsumori/Documents/Foodies_Assign/Foodies_AssignTests/Foodies_AssignTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D - 97d412fb0b36a420"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies_AssignTests.Foodies_AssignTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Foodies_AssignTests.Foodies_AssignTests"
+                  moduleName = "Foodies_AssignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satoshimitsumori/Documents/Foodies_Assign/Foodies_AssignTests/Foodies_AssignTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11">
+               </Location>
+               <Location
+                  uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D - 9b3e6da615fcb257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies_AssignTests.Foodies_AssignTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; Foodies_AssignTests.Foodies_AssignTests"
+                  moduleName = "Foodies_AssignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satoshimitsumori/Documents/Foodies_Assign/Foodies_AssignTests/Foodies_AssignTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D - a498a809dd59e440"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies_AssignTests.Foodies_AssignTests.init(selector: ObjectiveC.Selector) -&gt; Foodies_AssignTests.Foodies_AssignTests"
+                  moduleName = "Foodies_AssignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satoshimitsumori/Documents/Foodies_Assign/Foodies_AssignTests/Foodies_AssignTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11">
+               </Location>
+               <Location
+                  uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D - 3112f0207a139bb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies_AssignTests.Foodies_AssignTests.__allocating_init() -&gt; Foodies_AssignTests.Foodies_AssignTests"
+                  moduleName = "Foodies_AssignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satoshimitsumori/Documents/Foodies_Assign/Foodies_AssignTests/Foodies_AssignTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D - 225a36b15cddda3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies_AssignTests.Foodies_AssignTests.init() -&gt; Foodies_AssignTests.Foodies_AssignTests"
+                  moduleName = "Foodies_AssignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satoshimitsumori/Documents/Foodies_Assign/Foodies_AssignTests/Foodies_AssignTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11">
+               </Location>
+               <Location
+                  uuid = "4BAE2917-7573-47C8-B496-050C2D9B0F2D - f9399d0e9a4d4bdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies_AssignTests.Foodies_AssignTests.__deallocating_deinit"
+                  moduleName = "Foodies_AssignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satoshimitsumori/Documents/Foodies_Assign/Foodies_AssignTests/Foodies_AssignTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

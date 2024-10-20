@@ -7,6 +7,11 @@
 
 import Foundation
 
+protocol MockableJson: AnyObject {
+    var bundle: Bundle { get }
+    func decode<T: Decodable>(file: String, type: T.Type) throws -> T 
+}
+
 class StaticJSONMapping {
     static func decode<T: Decodable>(file: String, type: T.Type) throws -> T {
         

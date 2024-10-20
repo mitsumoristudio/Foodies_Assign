@@ -25,6 +25,7 @@
 		E442259E2CC36AA200F8105E /* RecipeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442259D2CC36AA200F8105E /* RecipeDetailCell.swift */; };
 		E44225A02CC36AF000F8105E /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442259F2CC36AF000F8105E /* RecipeCard.swift */; };
 		E44225A22CC36B2C00F8105E /* RecipeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44225A12CC36B2C00F8105E /* RecipeMainView.swift */; };
+		E47F0E1E2CC3C57100BC9972 /* FoodiesUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F0E1D2CC3C57100BC9972 /* FoodiesUnitTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		E442259D2CC36AA200F8105E /* RecipeDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailCell.swift; sourceTree = "<group>"; };
 		E442259F2CC36AF000F8105E /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		E44225A12CC36B2C00F8105E /* RecipeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMainView.swift; sourceTree = "<group>"; };
+		E47F0E1D2CC3C57100BC9972 /* FoodiesUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodiesUnitTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				E442256E2CC35DFD00F8105E /* Foodies_AssignTests.swift */,
+				E47F0E1D2CC3C57100BC9972 /* FoodiesUnitTest.swift */,
 			);
 			path = Foodies_AssignTests;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E442256F2CC35DFD00F8105E /* Foodies_AssignTests.swift in Sources */,
+				E47F0E1E2CC3C57100BC9972 /* FoodiesUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

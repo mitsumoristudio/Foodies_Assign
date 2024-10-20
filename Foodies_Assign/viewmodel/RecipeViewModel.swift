@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 @MainActor
 final class RecipeViewModel: ObservableObject {
     var recipes: RecipeModel?
@@ -37,7 +36,7 @@ final class RecipeViewModel: ObservableObject {
         }
         
         DispatchQueue.main.async {
-            do {
+           // do {
                 var result = try? JSONDecoder().decode(RecipeModel.self, from: data)
                 
                 self.isLoading = false
@@ -56,10 +55,10 @@ final class RecipeViewModel: ObservableObject {
                     }
                 }
                 self.recipes = result
-                
-            } catch let error {
-                self.errorMessage = error.localizedDescription
-            }
+              
+//            } catch let error {
+//                self.errorMessage = error.localizedDescription
+//            }
         }
     }
     
