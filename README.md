@@ -24,6 +24,11 @@ Corrected the search bar by adding conditional statement in RecipeMainView with 
 Added property wrapper @MainActor in association with the ObservableObject in ViewModel to ensure that class marked with it will run on the main thread. Include the final keyword for the viewmodel class so it does not support inheritance to a subclass and improve the modularity of the app. 
 
 ## How can we unit test API unhappy paths? 
+To solve this isssue, attempted to add mocking unit test to provide mock JSON data and similulate the servers response which is independent from actually making a API network request. Tested the static json file and three indexes to ensure that variables are not nil. 
+Still in the process of learning testing API on asynchronious code. 
+
+## How can we utilize modern swift concurrency? 
+Included Async/await to take care of manual thread management or deadlocks instead of the traditional URLsession. If the network request is taking longer, it can suspend the current execution, pause and the asynchronous function may resume later. Added @MainActor as mandatory component to Observable Object in ViewModel and adapt to Asynchronous task. Using Task and try await to run post the recipes on the main thread from UIView. 
 
 ## App Features
 
